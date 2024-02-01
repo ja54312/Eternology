@@ -1,0 +1,247 @@
+/*HEADER*/
+/*MOBILE*/
+@media screen and (max-width:766px){
+	#mobile_menu1{
+		width:200px;
+		background-color: #2D2D2D !important;
+		border-top: 3px solid #2D2D2D !important;
+		left:-95% !important;
+		height: 100vh !important;
+		top: 60px !important;
+	}
+	#mobile_menu1 li{
+		background-color: #2D2D2D;
+	}
+	#mobile_menu1 li a{
+		font-family: Calistoga;
+	}
+	.et_pb_menu_0_tb_header .mobile_nav .mobile_menu_bar:before{
+		color:#FFFFFF !important;
+	}
+	.et_pb_row_0_tb_header{
+		flex-direction: row-reverse;
+		padding: 10px 0px 0px 0px!important;
+		margin-left: 0 !important;
+	}
+	.et_pb_menu_0_tb_header{
+		display: flex;
+		padding: 0 !important;
+	}	
+}
+/*DESKTOP*/
+@media screen and (min-width:1023px){
+	.et_pb_menu_inner_container .et_pb_section{ 
+		min-width:500px;
+	}
+}
+/*HEADER*/
+/*FOOTER*/
+@media screen and (max-width:766px){
+	.et-l--footer .et_pb_row{
+		width: 88% !important;
+	}
+	.et_pb_column_0_tb_footer{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-left: 15%;
+	}
+	.et_pb_text_0_tb_footer h4 {
+		text-align: center;
+	}
+	.et-l--footer p{
+		font-size: 20px;
+		text-align: left;
+	}
+	.et_pb_social_media_follow_0_tb_footer{
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+	}
+}
+/*FOOTER*/
+/*HOME*/
+/*BANNER PRINCIPAL*/
+@media screen and (max-width:766px){
+	.et_pb_text_0 h2{
+		font-size: 32px !important;
+	}
+	.et_pb_text_1 h3{
+		font-size: 20px !important;
+		line-height: 30px !important;
+	}
+}
+/*SABORES INOLVIDABLES*/
+@media screen and (max-width:766px){
+	.et_pb_image_3{
+		left: 100% !important;
+	}
+}
+/*TextoGraduaciones*/
+@media screen and (min-width:1439px){
+	#ParagraphGraduaciones p{
+		font-size:97%;
+	}
+}
+/*EVENTOS*/
+@media screen and (max-width:766px){
+	.et_pb_row_4{
+		border-radius: 24px;
+	}
+}
+/*Mail Contacto*/
+@media screen and (max-width:1439px){
+	.et_pb_contact_form{
+		width:65%;
+		display:flex;
+		flex-direction:column;
+	}
+	.et_contact_bottom_container{
+		display: block;
+    	margin-top: -9%;
+    	margin-right: 56%;
+    	text-align: right;
+	}
+}
+@media screen and (max-width:1023px){
+	.et_pb_contact_form{
+		width:70%;
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+	}
+	.et_contact_bottom_container{
+		display: block;
+    	margin-top: -9%;
+    	margin-right: -30%;
+    	text-align: right;
+	}
+}
+@media screen and (max-width:766px){
+	#Contacto .et_pb_text_14{
+		margin-top: 0 !important;
+		margin-bottom: 0 !important;
+	}
+	#Contacto .et_pb_contact_form_0.et_pb_contact_form_container {
+		margin-top: 0 !important;
+	}
+	.et_pb_contact_form_0{
+		max-width: 100% !important;
+	}
+	#Contacto .et_pb_contact{
+		max-width: 100vw;
+	}
+	.et_pb_contact_form{
+		margin-left:1%;
+		width:98%;
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+		border-radius: 24px;
+		background-color: #FFFFFF;
+	}
+	.et_contact_bottom_container{
+		display: block;
+    	margin-top: -14%;
+    	margin-right: -75%;
+    	text-align: right;
+	}
+	.et_pb_contact_submit{
+		margin-bottom: 10px;
+	}
+	#Contacto {
+		padding-bottom: 0 !important;
+	}
+}
+/*HOME*/
+/*PAGE COTIZACIONES*/
+.forminator-button-back,
+.forminator-button-next{
+    border-radius: 32px !important;
+    background: linear-gradient(98.51deg, #AD9352 -15.21%, rgba(244, 244, 244, 0.3) 126.67%), linear-gradient(98.99deg, #AD9352 4.31%, #E7DFCC 130.94%) !important;
+}
+.forminator-row:first-child .forminator-field{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.forminator-row{
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+	flex-wrap: wrap;
+}
+.forminator-row .forminator-col{
+	width: 45%;
+}
+.forminator-field{
+	margin-bottom: 25px !important;
+}
+.forminator-label{
+	font-size: 18px !important;
+}
+.forminator-input{
+	height: 66px !important;
+	border-radius: 46px !important;
+    padding: 32px !important;
+    background: #2A2A2A !important;
+}
+.campo-radio{
+	width: 100% !important;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+.campo-radio .forminator-radio{
+	margin-left: 5% !important;
+}
+@media screen and (max-width:1023px){
+	.forminator-subtitle{
+ 		width: 300px;
+	}
+	.forminator-label{
+		font-size: 15px !important;
+	}
+	.forminator-input{
+		height: 55px !important;
+		font-size: 10px !important;
+		padding: 10px !important;
+	}
+}
+@media screen and (max-width:766px){
+	.forminator-pagination-steps{
+		display: flex !important;
+    	align-items: center;
+    	justify-content: center;
+	}
+	.forminator-row:first-child{
+		justify-content: space-around;
+	}
+	.forminator-row{
+		justify-content: space-between;
+	}
+	.forminator-title{
+		font-size: 22px !important;
+	}
+	.page-id-122 .et_pb_module{
+		display: flex;
+    	justify-content: center;
+    	margin: 0;
+    	width: 100%;
+	}
+	.page-id-122 .et_pb_code_inner{
+		width: 110%;
+	}
+	.forminator-label{
+		font-size: 10px !important;
+	}
+	.forminator-input{
+		height: 42px!important;
+    	font-size: 7px!important;
+    	padding: 0px 5px !important;
+	}
+	.forminator-icon-calendar{
+		left:75% !important;
+	}
+}
+/*PAGE COTIZACIONES*/
