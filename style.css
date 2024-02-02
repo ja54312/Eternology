@@ -85,6 +85,10 @@
 }
 /*EVENTOS*/
 @media screen and (max-width:766px){
+	#fondoFila,
+	.et_pb_row_5{
+		display: none !important;
+	}
 	.et_pb_row_4{
 		border-radius: 24px;
 	}
