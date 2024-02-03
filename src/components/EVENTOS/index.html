@@ -7,5 +7,39 @@
     <link rel="stylesheet" href="style.css" />
     <script src="eventos.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div id="EventosMobileCustom">
+      <div class="containerEventosMobileCustom">
+        <img
+          class="imageEventosMobileCustom"
+          id="miImageCustomMobile"
+          src="./BodasImage.jpeg"
+          alt="bodasImage"
+        />
+        <div class="containerEventText">
+          <div class="titleEventMobileCustom" id="miTitleCustomMobile">
+            Bodas
+          </div>
+          <p id="miParagraphCustomMobile">
+            En las bodas, nos aseguramos de que cada detalle esté cuidado, desde
+            la recepción con elegantes cócteles hasta la barra libre en la
+            fiesta, brindando a tus invitados...
+          </p>
+          <div class="subTitleEventMobileCustom" id="miSubtitleCustomMobile">
+            una experiencia inolvidable
+          </div>
+        </div>
+        <select class="selectEventMobile" onchange="{handleChange(value)}">
+          <option class="optionMobile" value="opcion1">Bodas</option>
+          <option class="optionMobile" value="opcion2">XV Años</option>
+          <option class="optionMobile" value="opcion3">Bautizos</option>
+          <option class="optionMobile" value="opcion4">Graduaciones</option>
+          <option class="optionMobile" value="opcion5">Fiestas</option>
+          <option class="optionMobile" value="opcion6">
+            Eventos Ejecutivos
+          </option>
+        </select>
+      </div>
+    </div>
+  </body>
 </html>
