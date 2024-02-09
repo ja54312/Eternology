@@ -1,5 +1,45 @@
 var Gallery = [
     {
+        index:3,
+        urlImgage:
+            "https://eternology.com.mx/wp-content/uploads/2024/02/fiestas.jpeg"
+    },
+    {
+        index:2,
+        urlImgage:
+            "https://eternology.com.mx/wp-content/uploads/2024/02/bebidas1.jpeg",
+    },
+    {
+        index:1,
+        urlImgage:
+            "https://eternology.com.mx/wp-content/uploads/2024/02/bebidas2.jpeg",
+    },
+    {
+        index:0,
+        urlImgage:
+            "https://eternology.com.mx/wp-content/uploads/2024/02/BodasImage-scaled.jpeg",
+    },
+    {
+        index:3,
+        urlImgage:
+            "https://eternology.com.mx/wp-content/uploads/2024/02/fiestas.jpeg"
+    },
+    {
+        index:2,
+        urlImgage:
+            "https://eternology.com.mx/wp-content/uploads/2024/02/bebidas1.jpeg",
+    },
+    {
+        index:1,
+        urlImgage:
+            "https://eternology.com.mx/wp-content/uploads/2024/02/bebidas2.jpeg",
+    },
+    {
+        index:0,
+        urlImgage:
+            "https://eternology.com.mx/wp-content/uploads/2024/02/BodasImage-scaled.jpeg",
+    },
+    {
         index:7,
         urlImgage:
             "https://eternology.com.mx/wp-content/uploads/2024/02/eventosEjecutivos.png"

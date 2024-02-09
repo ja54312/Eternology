@@ -14,22 +14,38 @@ function dividirArray(arrayOriginal, tamanoSubarray) {
 const tamanoSubarray = 4;
 
 const arraysPequenos = dividirArray(Galeria, tamanoSubarray);
-console.log("arrayPequenos", arraysPequenos);
+//console.log("arrayPequenos", arraysPequenos);
 
 // Estado para controlar ComboImagenes
 let ComboImagenes = 2;
+const MultipleImages = document.getElementsByClassName("multipleContainerGallery");
+function añadirClaseImagenes(MultipleImages){
+  
+  // Itera sobre los elementos obtenidos
+  for (let i = 0; i < MultipleImages.length; i++) {
+    // Verifica si es el segundo, cuarto, etc. elemento
+    if ((i + 1) % 2 === 0) {  // En este caso, se añadirá la clase a los elementos pares
+      // Añade la clase al elemento actual
+      MultipleImages[i].classList.add("galleryReverse");  // Reemplaza "tuClase" con el nombre de la clase que deseas añadir
+    }
+  }
+  // Muestra el resultado en la consola
+  //console.log(1, MultipleImages);
+}
+
 
 // Función para el control de imágenes
 function ControlImagenes() {
     ComboImagenes = ComboImagenes + 1;
     // Volver a renderizar el componente con el nuevo estado
     renderizar(MiComponente(Galeria, arraysPequenos, ComboImagenes), 'miContainerGallery');
+    añadirClaseImagenes(MultipleImages)
 }
 
 function MiComponente(Galeria, arraysPequenos, ComboImagenes) {
     let NumImages = Galeria.length;
     let NumArrays = arraysPequenos.length;
-    console.log("NumArrays", NumArrays);
+    //console.log("NumArrays", NumArrays);
 
     if (NumImages === 0) {
         return `<div class="NoGallery">No hay imágenes disponibles</div>`;
@@ -74,6 +90,7 @@ function MiComponente(Galeria, arraysPequenos, ComboImagenes) {
 // Función para renderizar un componente en el contenedor
 function renderizar(componente, contenedorId) {
     document.getElementById(contenedorId).innerHTML = componente;
+    añadirClaseImagenes(MultipleImages)
 }
 // Renderizar el componente inicial
 renderizar(MiComponente(Galeria, arraysPequenos, ComboImagenes), 'miContainerGallery');
