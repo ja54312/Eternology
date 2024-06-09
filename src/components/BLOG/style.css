@@ -1,0 +1,101 @@
+body {
+    background: #1d1d1d;
+}
+
+/*BLOG*/
+.NoCategory {
+    background-color: inherit;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: Popins;
+}
+
+#Blog {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1080px;
+    position: relative;
+}
+
+#Blog .categoriesContainerGeneral {
+    width: 100%;
+    height: 393px;
+}
+
+#Blog .categoriesContainerGeneral .TitleCategories {
+    width: 100%;
+    height: 30%;
+}
+
+#Blog .categoriesContainerGeneral .categoriesSliderContainer {
+    width: 100%;
+    height: 70%;
+}
+
+#Blog .categoriesContainerGeneral .TitleCategories span {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    color: rgba(255, 255, 254, 1);
+}
+
+#Blog .categoriesRecetasSliderContainer {
+    height: 342px;
+    width: 100%;
+    position: relative;
+    overflow: overlay;
+}
+
+#Blog .categoriesRecetasSliderContainer .tractionItems {
+    position: relative;
+    display: flex;
+    padding: 0;
+    scroll-snap-type: x mandatory;
+}
+
+.cardContainer {
+    height: 342px;
+    width: 282px;
+    padding: 0 10px;
+}
+
+.cardContainer .cardImageContainer {
+    height: 80%;
+    width: 100%;
+}
+
+.cardContainer .cardImageContainer img {
+    height: 280px;
+    width: 258px;
+    border-radius: 80px;
+}
+
+.cardContainer .cardTextContainer {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.cardContainer .cardTextContainer span {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: rgba(173, 147, 82, 1);
+}
+
+/*BlogTablet*/
+@media screen and (min-width:767px) {}
+
+/*BlogDesktop*/
+@media screen and (min-width:1023px) {}
+
+/*Blog*/
