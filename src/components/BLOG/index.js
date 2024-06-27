@@ -11,17 +11,16 @@ function MiComponente(Slider) {
   } else if (NumCards > 0) {
     return (
       Slider &&
-      Slider.map(
-        (element) =>
-          `<div class="cardContainer">
+      Slider.map((element) => {
+        `<div class="cardContainer">
                   <div class="cardImageContainer">
-                    <img src="${element?.urlImgage}" alt="receta-${element?.index}" />
+                    <img src="${element?.urlImage}" alt="receta-${element?.index}" />
                   </div>
                   <div class="cardTextContainer">
                     <span>${element?.titleCategory}</span>
                   </div>
-              </div>`
-      )
+              </div>`;
+      })
     );
   }
 }
